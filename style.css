@@ -4,7 +4,6 @@
 html,body {
     margin: 0;
     padding: 0;
-    overflow-wrap: initial;
 }
 p {
     white-space: pre;
@@ -55,6 +54,7 @@ p {
 .blocktwo > div {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .blockthree > div {
@@ -73,7 +73,9 @@ p {
 .know > span {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
 }
 #emailform {
     display: flex;
@@ -91,21 +93,26 @@ p {
 }
 .shrekswamp     {
     border-radius: 25%;
-    width: 200px;
-    height: auto;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
 }
 .fiona {
     border-radius: 25%;
-    width: 200px;
-    height: auto;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
 }
 .donkey {
     border-radius: 25%;
-    width: 200px;
-    height: auto;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
 }
-.Lord-Farquaad.jpeg {
+.Lord {
     border-radius: 25%;
-    width: 200px;
-    height: auto;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
 }
+
