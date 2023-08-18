@@ -1,0 +1,111 @@
+* {
+    /*border: 2px solid red;*/
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow-wrap: initial;
+}
+p {
+    white-space: pre;
+}
+.web {
+    min-height: 100vh;
+    background-color: black;
+    color: black;
+    margin-bottom: 0;
+}
+.web > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.blockone {
+    background-color: green;
+
+}
+.blocktwo {
+    background-color: white;
+}
+
+.blockthree {
+    background-color: greenyellow;
+    text-align: center;
+}
+.blockfour {
+    background-color: white;
+}
+.blockfive {
+    background-color: green;
+    text-align: center;        
+}
+.blockone > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.header {
+    justify-content: space-evenly;
+}
+.blocktwo > div {
+    display: flex;
+    justify-content: center;
+}
+
+.blockthree > div {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.blockfour > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blocktwo > span {
+    text-align: center;
+}
+.know > span {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+#emailform {
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+    width: 100px;
+    height: auto;
+    border: 2px solid White;
+    border-radius: 50%;
+}
+.shrekfamily {
+    border-radius: 25%;
+}
+.shrekswamp     {
+    border-radius: 25%;
+    width: 200px;
+    height: auto;
+}
+.fiona {
+    border-radius: 25%;
+    width: 200px;
+    height: auto;
+}
+.donkey {
+    border-radius: 25%;
+    width: 200px;
+    height: auto;
+}
+.Lord-Farquaad.jpeg {
+    border-radius: 25%;
+    width: 200px;
+    height: auto;
+}
